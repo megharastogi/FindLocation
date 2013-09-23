@@ -30,11 +30,13 @@
 
 
 
--(id)initWithLocation:(CLLocation *)location
+-(id)initWithLocation:(CLLocationCoordinate2D *)location
 {
     self = [super init];
     if (self) {
-        self.bikeCoordinate = location.coordinate; }
+        self.bikeCoordinate = *(location);
+        
+    }
     
     return self;
     

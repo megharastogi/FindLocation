@@ -25,6 +25,7 @@
 		04C53BB117F0D203004673A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB017F0D203004673A2 /* MapKit.framework */; };
 		04C53BB317F0D21D004673A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB217F0D21D004673A2 /* CoreLocation.framework */; };
 		04C53BB617F0D4D7004673A2 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C53BB517F0D4D7004673A2 /* LocationManager.m */; };
+		04C53BB817F0FCF0004673A2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C53BB717F0FCF0004673A2 /* pin.png */; };
 		A21CB6E417F0E082005E4C5E /* BikeRepairAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = A21CB6E317F0E082005E4C5E /* BikeRepairAnnotations.m */; };
 		A21CB6E717F0F199005E4C5E /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A21CB6E617F0F199005E4C5E /* CustomAnnotationView.m */; };
 		A21CB6EB17F0F2C4005E4C5E /* RW3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A21CB6EA17F0F2C4005E4C5E /* RW3.jpg */; };
@@ -65,6 +66,7 @@
 		04C53BB217F0D21D004673A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		04C53BB417F0D4D7004673A2 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		04C53BB517F0D4D7004673A2 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		04C53BB717F0FCF0004673A2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../Desktop/pin.png; sourceTree = "<group>"; };
 		A21CB6E217F0E082005E4C5E /* BikeRepairAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikeRepairAnnotations.h; path = ../BikeRepairAnnotations.h; sourceTree = "<group>"; };
 		A21CB6E317F0E082005E4C5E /* BikeRepairAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikeRepairAnnotations.m; path = ../BikeRepairAnnotations.m; sourceTree = "<group>"; };
 		A21CB6E517F0F199005E4C5E /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				A21CB6EA17F0F2C4005E4C5E /* RW3.jpg */,
+				04C53BB717F0FCF0004673A2 /* pin.png */,
 				04C53B8017F0D1EB004673A2 /* FindLocation-Info.plist */,
 				04C53B8117F0D1EB004673A2 /* InfoPlist.strings */,
 				04C53B8417F0D1EB004673A2 /* main.m */,
@@ -267,6 +270,7 @@
 				04C53B8F17F0D1EB004673A2 /* Main_iPad.storyboard in Resources */,
 				04C53B9417F0D1EB004673A2 /* Images.xcassets in Resources */,
 				04C53B8C17F0D1EB004673A2 /* Main_iPhone.storyboard in Resources */,
+				04C53BB817F0FCF0004673A2 /* pin.png in Resources */,
 				A21CB6EB17F0F2C4005E4C5E /* RW3.jpg in Resources */,
 				04C53B8317F0D1EB004673A2 /* InfoPlist.strings in Resources */,
 			);

@@ -20,7 +20,7 @@
 //@property (nonatomic,readonly,copy) NSString *title;
 //@property (nonatomic,readonly,copy) NSString *subtitle;
 
--(id)initWithLocation:(CLLocation *)location;
+-(id)initWithLocation:(CLLocationCoordinate2D *)location;
 
 -(id)initWithDict:(NSDictionary*)dict;
 
