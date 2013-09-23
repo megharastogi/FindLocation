@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>15F3CC4A-7ABC-42A5-9246-6E0C1DD62C08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FindLocation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1BEC7BE1-BD1B-4A3E-B7F7-CDB6B022A7CD</key>
+		<string>https://github.com/megharastogi/FindLocation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FindLocation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1BEC7BE1-BD1B-4A3E-B7F7-CDB6B022A7CD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/megharastogi/FindLocation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1BEC7BE1-BD1B-4A3E-B7F7-CDB6B022A7CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1BEC7BE1-BD1B-4A3E-B7F7-CDB6B022A7CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FindLocation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

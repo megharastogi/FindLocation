@@ -25,6 +25,9 @@
 		04C53BB117F0D203004673A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB017F0D203004673A2 /* MapKit.framework */; };
 		04C53BB317F0D21D004673A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB217F0D21D004673A2 /* CoreLocation.framework */; };
 		04C53BB617F0D4D7004673A2 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C53BB517F0D4D7004673A2 /* LocationManager.m */; };
+		A21CB6E417F0E082005E4C5E /* BikeRepairAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = A21CB6E317F0E082005E4C5E /* BikeRepairAnnotations.m */; };
+		A21CB6E717F0F199005E4C5E /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A21CB6E617F0F199005E4C5E /* CustomAnnotationView.m */; };
+		A21CB6EB17F0F2C4005E4C5E /* RW3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A21CB6EA17F0F2C4005E4C5E /* RW3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,11 @@
 		04C53BB217F0D21D004673A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		04C53BB417F0D4D7004673A2 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		04C53BB517F0D4D7004673A2 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		A21CB6E217F0E082005E4C5E /* BikeRepairAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikeRepairAnnotations.h; path = ../BikeRepairAnnotations.h; sourceTree = "<group>"; };
+		A21CB6E317F0E082005E4C5E /* BikeRepairAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikeRepairAnnotations.m; path = ../BikeRepairAnnotations.m; sourceTree = "<group>"; };
+		A21CB6E517F0F199005E4C5E /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		A21CB6E617F0F199005E4C5E /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		A21CB6EA17F0F2C4005E4C5E /* RW3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RW3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,10 @@
 		04C53B7E17F0D1EB004673A2 /* FindLocation */ = {
 			isa = PBXGroup;
 			children = (
+				A21CB6E217F0E082005E4C5E /* BikeRepairAnnotations.h */,
+				A21CB6E317F0E082005E4C5E /* BikeRepairAnnotations.m */,
+				A21CB6E517F0F199005E4C5E /* CustomAnnotationView.h */,
+				A21CB6E617F0F199005E4C5E /* CustomAnnotationView.m */,
 				04C53B8717F0D1EB004673A2 /* AppDelegate.h */,
 				04C53B8817F0D1EB004673A2 /* AppDelegate.m */,
 				04C53B8A17F0D1EB004673A2 /* Main_iPhone.storyboard */,
@@ -142,6 +154,7 @@
 		04C53B7F17F0D1EB004673A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A21CB6EA17F0F2C4005E4C5E /* RW3.jpg */,
 				04C53B8017F0D1EB004673A2 /* FindLocation-Info.plist */,
 				04C53B8117F0D1EB004673A2 /* InfoPlist.strings */,
 				04C53B8417F0D1EB004673A2 /* main.m */,
@@ -254,6 +267,7 @@
 				04C53B8F17F0D1EB004673A2 /* Main_iPad.storyboard in Resources */,
 				04C53B9417F0D1EB004673A2 /* Images.xcassets in Resources */,
 				04C53B8C17F0D1EB004673A2 /* Main_iPhone.storyboard in Resources */,
+				A21CB6EB17F0F2C4005E4C5E /* RW3.jpg in Resources */,
 				04C53B8317F0D1EB004673A2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21CB6E717F0F199005E4C5E /* CustomAnnotationView.m in Sources */,
 				04C53BB617F0D4D7004673A2 /* LocationManager.m in Sources */,
+				A21CB6E417F0E082005E4C5E /* BikeRepairAnnotations.m in Sources */,
 				04C53B9217F0D1EB004673A2 /* ViewController.m in Sources */,
 				04C53B8917F0D1EB004673A2 /* AppDelegate.m in Sources */,
 				04C53B8517F0D1EB004673A2 /* main.m in Sources */,
@@ -411,6 +427,7 @@
 		04C53BAB17F0D1EB004673A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -424,6 +441,7 @@
 		04C53BAC17F0D1EB004673A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -495,6 +513,7 @@
 				04C53BAC17F0D1EB004673A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C53BAD17F0D1EB004673A2 /* Build configuration list for PBXNativeTarget "FindLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +522,7 @@
 				04C53BAF17F0D1EB004673A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
