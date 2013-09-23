@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface LocationManager : NSObject
+@interface LocationManager : NSObject <CLLocationManagerDelegate>
+{
+    CLLocationManager * myLocationManager;
+}
+
+-(void)startLocationServices;
 
 @end

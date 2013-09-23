@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "LocationManager.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface ViewController ()
 
+    @property (strong,nonatomic) LocationManager * myLocation;
 @end
 
 @implementation ViewController
@@ -17,7 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.myLocation = [[LocationManager alloc] init];
+    
+    _mapView.showsUserLocation = TRUE;
+    _mapView.userTrackingMode = MKUserTrackingModeFollow;
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,6 +22,9 @@
 		04C53B9D17F0D1EB004673A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53B7C17F0D1EB004673A2 /* UIKit.framework */; };
 		04C53BA517F0D1EB004673A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C53BA317F0D1EB004673A2 /* InfoPlist.strings */; };
 		04C53BA717F0D1EB004673A2 /* FindLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C53BA617F0D1EB004673A2 /* FindLocationTests.m */; };
+		04C53BB117F0D203004673A2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB017F0D203004673A2 /* MapKit.framework */; };
+		04C53BB317F0D21D004673A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C53BB217F0D21D004673A2 /* CoreLocation.framework */; };
+		04C53BB617F0D4D7004673A2 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C53BB517F0D4D7004673A2 /* LocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,10 @@
 		04C53BA217F0D1EB004673A2 /* FindLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindLocationTests-Info.plist"; sourceTree = "<group>"; };
 		04C53BA417F0D1EB004673A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04C53BA617F0D1EB004673A2 /* FindLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindLocationTests.m; sourceTree = "<group>"; };
+		04C53BB017F0D203004673A2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04C53BB217F0D21D004673A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04C53BB417F0D4D7004673A2 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		04C53BB517F0D4D7004673A2 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C53BB317F0D21D004673A2 /* CoreLocation.framework in Frameworks */,
+				04C53BB117F0D203004673A2 /* MapKit.framework in Frameworks */,
 				04C53B7B17F0D1EB004673A2 /* CoreGraphics.framework in Frameworks */,
 				04C53B7D17F0D1EB004673A2 /* UIKit.framework in Frameworks */,
 				04C53B7917F0D1EB004673A2 /* Foundation.framework in Frameworks */,
@@ -103,6 +112,8 @@
 		04C53B7717F0D1EB004673A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04C53BB217F0D21D004673A2 /* CoreLocation.framework */,
+				04C53BB017F0D203004673A2 /* MapKit.framework */,
 				04C53B7817F0D1EB004673A2 /* Foundation.framework */,
 				04C53B7A17F0D1EB004673A2 /* CoreGraphics.framework */,
 				04C53B7C17F0D1EB004673A2 /* UIKit.framework */,
@@ -122,6 +133,8 @@
 				04C53B9117F0D1EB004673A2 /* ViewController.m */,
 				04C53B9317F0D1EB004673A2 /* Images.xcassets */,
 				04C53B7F17F0D1EB004673A2 /* Supporting Files */,
+				04C53BB417F0D4D7004673A2 /* LocationManager.h */,
+				04C53BB517F0D4D7004673A2 /* LocationManager.m */,
 			);
 			path = FindLocation;
 			sourceTree = "<group>";
@@ -202,6 +215,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "MEGHA GULATI";
 				TargetAttributes = {
+					04C53B7417F0D1EB004673A2 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					04C53B9817F0D1EB004673A2 = {
 						TestTargetID = 04C53B7417F0D1EB004673A2;
 					};
@@ -253,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C53BB617F0D4D7004673A2 /* LocationManager.m in Sources */,
 				04C53B9217F0D1EB004673A2 /* ViewController.m in Sources */,
 				04C53B8917F0D1EB004673A2 /* AppDelegate.m in Sources */,
 				04C53B8517F0D1EB004673A2 /* main.m in Sources */,

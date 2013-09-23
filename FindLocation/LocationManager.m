@@ -10,4 +10,27 @@
 
 @implementation LocationManager
 
+-(id)init
+{
+    self = [super init];
+    if(self)
+    {
+        myLocationManager = [CLLocationManager new];
+        myLocationManager.delegate = self;
+        
+        [myLocationManager startUpdatingLocation];
+
+    }
+    
+    return self;
+}
+
+-(void)startLocationServices
+{
+    
+    [myLocationManager startUpdatingLocation];
+    
+}
+
+
 @end
